@@ -4,12 +4,12 @@ class Conexion{
 
 
         
-    //    private $dsn = "mysql:host=localhost;dbname=prueba";
-    //     // $servername = "localhost";
-    //     // $database = "Prueba";
-    //    private $username = "root";
-    //    private $password = "";
-    //    private $conexion;
+       private $dsn = "mysql:host=localhost;dbname=prueba";
+        // $servername = "localhost";
+        // $database = "Prueba";
+       private $username = "root";
+       private $password = "";
+       private $conexion;
 
 
     //https://www.phpmyadmin.co/sql.php?server=1&db=sql10475958&table=cliente&pos=0
@@ -19,10 +19,6 @@ class Conexion{
 // Database password: FNahpQ3nmk
 // Port number: 3306
 
-    private $dsn = "mysql:host=ofimyd.space;dbname=cof80210_ofimyd";
-    private $username = "cof80210_admindavid";
-    private $password = "!Tomare12";
-    private $conexion;
 
        public function __construct()
        {
